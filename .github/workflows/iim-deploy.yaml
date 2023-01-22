@@ -54,3 +54,4 @@ jobs:
           local: artifact-1/*
           remote: "C:/inetpub/wwwroot/"
           post_upload: Powershell.exe 'ls -l C:\inetpub\wwwroot\*'
+          
